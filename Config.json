@@ -1,0 +1,649 @@
+{
+	"Config":{
+		"Hotbar_Size":3,
+		"Hotbar_Pos":{
+			"x":1,
+			"y":5
+		},
+		"Inventory_Size_X":3,
+		"Inventory_Size_Y":3,
+		"Inventory":{
+			"x":1,
+			"y":1
+		},
+		"TilesWithoutCollision":[60,-1],
+		"LightTransparentBlocks":[15,39,12,13,28,29,30,70,55,56,73,79,99,80,52,149,5,53],
+		"TilesWhatOnCanPlace":[39,205,206,217,218,219,220,-1],
+		"OnlyOnBlocks":[
+			15,39,12,13,28,29,30,70,55,56,73,79,99,80
+		],
+		"CantPlacedBlocks":[
+			15,39,12,13,28,29,30,70,55,56,73,79,99,80,-1
+		],
+		"Entity":{
+				"Zombie":{
+					"Drop":{
+							"RottenFlesh":99,
+							"Iron_Ingot":1
+						}
+				}
+			
+		},
+		"Glossary":{
+			"Wooden_Pickaxe":{
+				"Type": "Pickaxe",
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":59,
+				"Mining_Speed":2,
+				"MiningTier":1
+			},
+			"Hook":{
+				"Type": "Hook",
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":59,
+				"Mining_Speed":2,
+				"MiningTier":1
+			},
+			"WoodenScissors":{
+				"Type": "Scissors",
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":59,
+				"Mining_Speed":2,
+				"MiningTier":1
+			},
+			"Stone_Pickaxe":{
+				"Type": "Pickaxe",
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":131,
+				"Mining_Speed":4
+			},
+			"Iron_Pickaxe":{
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":250,
+				"Mining_Speed":6
+			},
+			"Gold_Pickaxe":{
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":32,
+				"Mining_Speed":12
+			},
+			"Diamond_Pickaxe":{
+				"Using":"Instrument",
+				"Stackable":0,
+				"Durability":1561,
+				"Mining_Speed":8
+			},
+			"Oak_Planks":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 600
+			},
+			"Oak_SlabUp":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 400
+			},
+			"Oak_SlabDown":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 400
+			},
+			"Stone":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Sand":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"StoneBrick":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Oak_Log":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 600
+			},
+			"Wood_Stick":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 30
+			},
+			"Worm":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32,
+				"Fuel": 30
+			},
+			"String":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"SilkMesh":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"WorkBench":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Furnace":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Grass":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Ice":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Dirt":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Cobblestone":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"ClayBlock":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Chest":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Barrel":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Apple":{
+				"Using":"Food",
+				"Stackable":1,
+				"MaxStack":16,
+				"FoodPoints":4,
+				"Duration":120
+			},
+			"RottenFlesh":{
+				"Using":"Food",
+				"Stackable":1,
+				"MaxStack":16,
+				"FoodPoints":1,
+				"Duration":120
+			},
+			"Oak_Sampling":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":16,
+				"Fuel": 300,
+				"OnlyOn":[3,2]
+			},
+			"Torch":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"NotOnSpecial":1
+			},
+			"Bed":{
+				"Using":"Block",
+				"Stackable":0,
+				"NotOnSpecial":1
+			},
+			"Coal":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Gold_Ingot":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Iron_Ingot":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Clay":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Diamond":{	
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Rose":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Dandelion":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"Trava":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"RedMushroom":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"BrownMushroom":{
+				"Using":"Material",
+				"Stackable":1,
+				"MaxStack":32
+			},
+			"WheatSeeds":{
+				"Using":"Block",
+				"Stackable":1,
+				"MaxStack":32,
+				"OnlyOn":[71]
+			},
+			"Bucket":{
+				"Type":"Bucket",
+				"Using":"Bucket",
+				"Stackable":0
+			},
+			"WaterBucket":{
+				"Type": "WaterBucket",
+				"Using":"Bucket",
+				"Stackable":0
+			},
+			"ClayBucket":{
+				"Type":"ClayBucket",
+				"Using":"Bucket",
+				"Stackable":0
+			},
+			"ClayWaterBucket":{
+				"Type": "ClayWaterBucket",
+				"Using":"Bucket",
+				"Stackable":0
+			}
+		},
+		"Tiles":{
+			"3":{
+				"Dur": 0.6,
+				"Type": "Grass",
+				"Silk_Drop": "Grass",
+				"No_Silk_Drop": "Dirt",
+				"Best_Tool": "Shovel",
+				"HitSound":"Hitgrass4",
+				"DestroySound":"grass3"
+			},
+			"52":{
+				"Dur": 0.1,
+				"Type": "OakLeaves",
+				"Silk_Drop": "OakLeaves",
+				"Best_Tool": "Scissors",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"grass3",
+				"Drop":{
+					"Apple":20,
+					"Oak_Sampling":20
+				}
+			},
+			"53":{
+				"Dur": 0.1,
+				"Type": "WhiteOakLeaves",
+				"Silk_Drop": "WhiteOakLeaves",
+				"Best_Tool": "Hook",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"grass3",
+				"SpecialForDrop":"Hook",
+				"Drop":{
+					"Worm":20,
+					"String":99.9
+				}
+			},
+			"72":{
+				"Dur": 1,
+				"Type": "ClayBlock",
+				"Silk_Drop": "ClayBlock",
+				"Best_Tool": "Shovel",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"grass3",
+				"Drop":{
+					"Clay":99.9
+				}
+			},
+			"16":{
+				"Dur": 0.6,
+				"Type": "Cobblestone",
+				"Silk_Drop": "Cobblestone",
+				"No_Silk_Drop": "Cobblestone",
+				"Best_Tool": "Pickaxe"
+			},
+			"18":{
+				"Dur": 0.6,
+				"Type": "Sand",
+				"Silk_Drop": "Sand",
+				"No_Silk_Drop": "Sand",
+				"Best_Tool": "Shovel"
+			},
+			"1":{
+				"Dur": 1.5,
+				"Type": "Stone",
+				"Silk_Drop": "Stone",
+				"No_Silk_Drop": "Cobblestone",
+				"Best_Tool": "Pickaxe",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"grass1",
+				"MiningTier":1
+			},
+			"54":{
+				"Dur": 1.5,
+				"Type": "StoneBrick",
+				"Silk_Drop": "StoneBrick",
+				"No_Silk_Drop": "StoneBrick",
+				"Best_Tool": "Pickaxe",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"grass1",
+				"MiningTier":1
+			},
+			"2":{
+				"Dur": 0.5,
+				"Type": "Dirt",
+				"Silk_Drop": "Dirt",
+				"No_Silk_Drop": "Dirt",
+				"Best_Tool": "Shovel",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"Hitgravel3"
+			},
+			"71":{
+				"Dur": 0.6,
+				"Type": "FarmLand",
+				"Silk_Drop": "Dirt",
+				"No_Silk_Drop": "Dirt",
+				"Best_Tool": "Shovel",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"Hitgravel3"
+			},
+			"4":{
+				"Dur": 2,
+				"Type": "Oak_Planks",
+				"Silk_Drop": "Oak_Planks",
+				"No_Silk_Drop": "Oak_Planks",
+				"Best_Tool": "Axe"
+			},
+			"5":{
+				"Dur": 2,
+				"Type": "Oak_SlabDown",
+				"Silk_Drop": "Oak_SlabDown",
+				"No_Silk_Drop": "Oak_SlabDown",
+				"Best_Tool": "Axe"
+			},
+			"6":{
+				"Dur": 2,
+				"Type": "Oak_SlabUp",
+				"Silk_Drop": "Oak_SlabUp",
+				"No_Silk_Drop": "Oak_SlabUp",
+				"Best_Tool": "Axe"
+			},
+			"20":{
+				"Dur": 2,
+				"Type": "Oak_Log",
+				"Silk_Drop": "Oak_Log",
+				"No_Silk_Drop": "Oak_Log",
+				"Best_Tool": "Axe"
+				
+			},
+			"60":{
+				"Dur": 2.5,
+				"Type": "WorkBench",
+				"Silk_Drop": "WorkBench",
+				"No_Silk_Drop": "WorkBench",
+				"Best_Tool": "Axe",
+				"Interface":"WorkBench"
+				
+			},
+			"15":{
+				"Dur": 1,
+				"Type": "Oak_Sampling",
+				"Silk_Drop": "Oak_Sampling",
+				"No_Silk_Drop": "Oak_Sampling",
+				"Best_Tool": "Scissors"
+			},
+			"44":{
+				"Dur": 2.5,
+				"Type": "Furnace",
+				"Silk_Drop": "Furnace",
+				"No_Silk_Drop": "Furnace",
+				"Best_Tool": "Pickaxe",
+				"Interface":"Furnace",
+				"MiningTier":1
+				
+			},
+			"61":{
+				"Dur": 2.5,
+				"Type": "Furnace",
+				"Silk_Drop": "Furnace",
+				"No_Silk_Drop": "Furnace",
+				"Best_Tool": "Pickaxe",
+				"Interface":"Furnace",
+				"MiningTier":1
+				
+			},
+			"8":{
+				"Dur": 5,
+				"Type": "Chest",
+				"Silk_Drop": "Chest",
+				"No_Silk_Drop": "Chest",
+				"Best_Tool": "Axe",
+				"Interface":"Chest",
+				"Params":{
+					"SizeX":4,
+					"SizeY":4
+				}
+			},
+			"241":{
+				"Dur": 5,
+				"Type": "Barrel",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"242":{
+				"Dur": 5,
+				"Type": "Barrel1",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"243":{
+				"Dur": 5,
+				"Type": "Barrel2",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"244":{
+				"Dur": 5,
+				"Type": "Barrel3",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"245":{
+				"Dur": 5,
+				"Type": "Barrel4",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"246":{
+				"Dur": 5,
+				"Type": "Barrel5",
+				"Silk_Drop": "Barrel",
+				"No_Silk_Drop": "Barrel",
+				"Best_Tool": "Axe"
+			},
+			"17":{
+				"Dur": 999999999999,
+				"Type": "Bedrock",
+				"Silk_Drop": "Bedrock",
+				"No_Silk_Drop": "Bedrock",
+				"Best_Tool": "-1"
+			},
+			"34":{
+				"Dur": 3,
+				"Type": "CoalOre",
+				"Silk_Drop": "CoalOre",
+				"No_Silk_Drop": "Coal",
+				"Best_Tool": "Pickaxe",
+				"MiningTier":1
+			},
+			"33":{
+				"Dur": 3,
+				"Type": "IronOre",
+				"Silk_Drop": "IronOre",
+				"No_Silk_Drop": "IronOre",
+				"Best_Tool": "Pickaxe",
+				"MiningTier":1
+			},
+			"32":{
+				"Dur": 3,
+				"Type": "GoldOre",
+				"Silk_Drop": "GoldOre",
+				"No_Silk_Drop": "GoldOre",
+				"Best_Tool": "Pickaxe",
+				"MiningTier":2
+			},
+			"50":{
+				"Dur": 3,
+				"Type": "DiamondOre",
+				"Silk_Drop": "DiamondOre",
+				"No_Silk_Drop": "Diamond",
+				"Best_Tool": "Pickaxe",
+				"MiningTier":4
+			},
+			"80":{
+				"Dur": 0.1,
+				"Type": "Torch",
+				"No_Silk_Drop": "Torch"
+			},
+			"149":{
+				"Dur": 1,
+				"Type": "Bed",
+				"Stackable":0,
+				"No_Silk_Drop": "Bed",
+				"Interface":"Bed"
+			},
+			"12":{
+				"Dur": 0.1,
+				"Type": "Rose",
+				"No_Silk_Drop": "Rose"
+			},
+			"13":{
+				"Dur": 0.1,
+				"Type": "Dandelion",
+				"No_Silk_Drop": "Dandelion"
+			},
+			"39":{
+				"Dur": 0.1,
+				"Type": "Trava",
+				"No_Silk_Drop": "Trava"
+			},
+			"29":{
+				"Dur": 0.1,
+				"Type": "RedMushroom",
+				"No_Silk_Drop": "RedMushroom"
+			},
+			"28":{
+				"Dur": 0.1,
+				"Type": "BrownMushroom",
+				"No_Silk_Drop": "BrownMushroom"
+			},
+			"88":{
+				"Dur": 0.1,
+				"Type": "WheatSeeds",
+				"No_Silk_Drop": "WheatSeeds"
+			},
+			"67":{
+				"Dur": 0.5,
+				"Type": "Ice",
+				"Silk_Drop": "Ice",
+				"Best_Tool": "Pickaxe",
+				"HitSound":"Hitgravel1",
+				"DestroySound":"Hitgravel3"
+			}
+		},
+		"Traders":{
+			"Test":{
+				"Offers":{
+					"Apple":{
+						"Cost":-10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Dirt":{
+						"Cost":10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Diamond":{
+						"Cost":10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Cobblestone":{
+						"Cost":10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Grass":{
+						"Cost":-10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Chest":{
+						"Cost":10,
+						"CostType":"Coin",
+						"Count":1
+					},
+					"Furnace":{
+						"Cost":10,
+						"CostType":"Coin",
+						"Count":1
+					}
+				}
+			}
+		}
+	},
+	"System":{
+		
+	}
+}

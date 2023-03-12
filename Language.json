@@ -1,0 +1,18 @@
+{
+	"Ru":{
+		"Play": "Играть",
+		"Language":"Язык",
+		"CreateNewWorld": "Создать новый мир",
+		"Prefix": "Попробуйте другие наши игры!",
+		"ToFar": "Я не дотягиваюсь...",
+		"OtherGames":"Другие игры"
+	},
+	"En":{
+		"Play": "Play",
+		"Language":"Language",
+		"CreateNewWorld": "Create New World",
+		"Prefix": "Also try other our games!",
+		"ToFar": "Too far...",
+		"OtherGames":"Other games"
+	}
+}

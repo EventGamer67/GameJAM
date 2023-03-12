@@ -1,0 +1,364 @@
+{
+	"Recipes": {
+		"Oak_Planks": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"A"
+			],
+			"Key": {
+				"A": "Oak_Log"
+			},
+			"Result": {
+				"Item": "Oak_Planks",
+				"Count": 4
+			}
+		},
+		"Wood_Stick": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"A",
+				"A"
+			],
+			"Key": {
+				"A": "Oak_Planks"
+			},
+			"Result": {
+				"Item": "Wood_Stick",
+				"Count": 4
+			}
+		},
+		"Oak_SlabUp": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA"
+			],
+			"Key": {
+				"A": "Oak_Planks"
+			},
+			"Result": {
+				"Item": "Oak_SlabUp",
+				"Count": 3
+			}
+		},
+		"Oak_SlabDown": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA"
+			],
+			"Key": {
+				"A": "Oak_SlabUp"
+			},
+			"Result": {
+				"Item": "Oak_SlabDown",
+				"Count": 3
+			}
+		},
+		"Torch": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"A",
+				"B"
+			],
+			"Key": {
+				"A": "Coal",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Torch",
+				"Count": 2
+			}
+		},
+		"WorkBench": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA",
+				"AA"
+			],
+			"Key": {
+				"A": "Oak_Planks"
+			},
+			"Result": {
+				"Item": "WorkBench",
+				"Count": 1
+			}
+		},
+		"WoodenScissors": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"A0",
+				"0A"
+			],
+			"Key": {
+				"A": "Oak_Planks"
+			},
+			"Result": {
+				"Item": "WoodenScissors",
+				"Count": 30
+			}
+		},
+		"Chest": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"A0A",
+				"AAA"
+			],
+			"Key": {
+				"A": "Oak_Planks"
+			},
+			"Result": {
+				"Item": "Chest",
+				"Count": 1
+			}
+		},
+		"Hook": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA",
+				"A0",
+				"A0"
+			],
+			"Key": {
+				"A": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Hook",
+				"Count": 30
+			}
+		},
+		"HookB": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA",
+				"0A",
+				"0A"
+			],
+			"Key": {
+				"A": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Hook",
+				"Count": 30
+			}
+		},
+		"Sieve": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"ABA",
+				"ABA",
+				"C0C"
+			],
+			"Key": {
+				"A": "Oak_Planks",
+				"B": "Wood_Stick",
+				"C": "SilkMesh"
+			},
+			"Result": {
+				"Item": "Sieve",
+				"Count": 1
+			}
+		},
+		"SilkMesh": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"AAA",
+				"AAA"
+			],
+			"Key": {
+				"A": "String"
+			},
+			"Result": {
+				"Item": "SilkMesh",
+				"Count": 1
+			}
+		},
+		"Furnace": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"A0A",
+				"AAA"
+			],
+			"Key": {
+				"A": "Cobblestone"
+			},
+			"Result": {
+				"Item": "Furnace",
+				"Count": 1
+			}
+		},	
+		"Wooden_Pickaxe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"0B0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Oak_Planks",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Wooden_Pickaxe",
+				"Count": 59
+			}
+		},
+		"Stone_Pickaxe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"0B0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Cobblestone",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Stone_Pickaxe",
+				"Count": 131
+			}
+		},
+		"Iron_Pickaxe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"0B0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Iron_Ingod",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Iron_Pickaxe",
+				"Count": 250
+			}
+		},
+		"Gold_Pickaxe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"0B0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Gold_Ingot",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Gold_Pickaxe",
+				"Count": 32
+			}
+		},
+		"Diamond_Pickaxe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AAA",
+				"0B0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Diamond",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Diamond_Pickaxe",
+				"Count": 30
+			}
+		},
+		"Wooden_Axe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA0",
+				"AB0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Oak_Planks",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Wooden_Axe",
+				"Count": 60
+			}
+		},
+		"Stone_Axe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA0",
+				"AB0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Cobblestone",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Stone_Axe",
+				"Count": 132
+			}
+		},
+		"Iron_Axe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA0",
+				"AB0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Iron_Ingot",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Iron_Axe",
+				"Count": 251
+			}
+		},
+		"Gold_Axe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA0",
+				"AB0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Gold_Ingot",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Gold_Axe",
+				"Count": 33
+			}
+		},
+		"Diamond_Axe": {
+			"Type": "Crafting_Shapeless",
+			"Pattern": [
+				"AA0",
+				"AB0",
+				"0B0"
+			],
+			"Key": {
+				"A": "Diamond",
+				"B": "Wood_Stick"
+			},
+			"Result": {
+				"Item": "Diamond_Axe",
+				"Count": 1562
+			}
+		}
+	},
+	"Smelting": {
+		"Stone": {
+			"Item": "Cobblestone",
+			"Result": "Stone",
+			"CookingTime": 200
+		},
+		"Iron_Ingot": {
+			"Item": "Iron_Ore",
+			"Result": "Iron_Ingot",
+			"CookingTime": 200
+		}
+	}
+}
